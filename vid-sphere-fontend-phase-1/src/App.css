@@ -1,0 +1,15 @@
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.app-body {
+  display: flex;
+  flex-grow: 1;
+  height: calc(100vh - 56px); /* Adjust for header height */
+  overflow: hidden;
+}
